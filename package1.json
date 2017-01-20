@@ -1,0 +1,27 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "Training Modules UI",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "Training UI"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexJangam/training-module.git"
+  },
+  "keywords": [
+    "training",
+    "modules",
+    "ui",
+    "node"
+  ],
+  "author": "ATR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexJangam/training-module/issues"
+  },
+  "homepage": "https://github.com/AlexJangam/training-module#readme"
+}
