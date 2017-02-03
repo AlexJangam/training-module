@@ -1,6 +1,14 @@
 var express = require('express');
 var router = express.Router();
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/training')
 
+var mySchema = mongoose.Schema({
+  fruitName : String,
+  name : String
+})
+
+var choiceModel = mongoose.model('choices', mySchema);
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' }); // index is the file name index.jade
